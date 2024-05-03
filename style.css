@@ -3,3 +3,79 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  font-size: 62.5%;
+}
+body {
+  max-width: 32rem;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img.close {
+  display: none;
+}
+.logo img {
+  width: 12rem;
+  padding: 1.6rem;
+}
+.navigation {
+  padding: 1.2rem;
+}
+.navigation button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.navigation button .line{
+  background-color: orange;
+  height: 0.5rem;
+  width: 4rem;
+  margin-bottom: 0.8rem;
+}
+.navigation button .line.close {
+  display: none;
+}
+.navigation .close {
+  color: orange;
+  display: none;
+}
+.navigation .close.show {
+  display: flex;
+  color: orange;
+  width: 5rem;
+  margin-right: 0;
+  width: 100%;
+}
+.close img {
+  width: 2.5rem;
+  margin-left: calc(100% - 2.5rem);
+  margin-bottom: 2rem;
+}
+header ul.options {
+  display: none;
+}
+header ul.options.show {
+  display: flex;
+  list-style: none;
+  gap: 0.8rem;
+  flex-direction: column;
+  text-align: center;
+  width: 20rem;
+  margin: auto;
+}
+header li {
+  padding: 1.2rem;
+  background-color: orange;
+  border-radius: 0.8rem;
+}
+header a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5rem;
+}

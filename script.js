@@ -1,0 +1,16 @@
+const buttonOpen = document.querySelector('.open')
+const buttonClose = document.querySelector(".close")
+const options = document.querySelector('.options')
+const logo = document.querySelector('.logo')
+buttonOpen.addEventListener('click', () => {
+  options.classList.add('show')
+  buttonClose.classList.add('show')
+  buttonOpen.classList.add('close')
+  logo.classList.add('close')
+})
+buttonClose.addEventListener('click', () => {
+  options.classList.remove("show")
+  buttonClose.classList.remove("show")
+  buttonOpen.classList.remove("close")
+  logo.classList.remove("close")
+})
