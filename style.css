@@ -89,7 +89,6 @@ main .line {
   width: 100%;
   background-color: #000;
   margin-top: 3rem;
-  margin-bottom: 3rem;
 }
 #sobre-mim {
   padding-top: 9rem;
@@ -110,7 +109,47 @@ main .line {
 }
 #trabalhos h1 {
   font-size: 2.5rem;
+  margin-top: 3rem;
 }
 #trabalhos p {
   font-size: 1.5rem;
+}
+#contato {
+  text-align: center;
+}
+#contato h1 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+#contato a {
+  background-color: green;
+  padding: 1.6rem;
+  font-size: 2rem;
+  border-radius: 0.8rem;
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  align-items: center;
+  width: 20rem;
+  justify-content: center;
+  margin: auto;
+}
+#contato a img {
+  width: 2rem;
+  margin-right: 1rem;
+}
+footer {
+  background-color: #000;
+  color: orange;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+footer h1 {
+  font-size: 3rem;
+}
+footer img {
+  background-color: orange;
 }
