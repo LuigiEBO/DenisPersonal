@@ -80,6 +80,7 @@ header a {
   text-decoration: none;
   color: #000;
   font-size: 1.5rem;
+  font-weight: bold;
 }
 main {
   background-color: rgb(220, 146, 7);
@@ -152,6 +153,8 @@ footer h1 {
 }
 footer img {
   background-color: orange;
+  border-radius: 1.2rem;
+  width: 3rem;
 }
 @media (min-width:450px) {
   body {
