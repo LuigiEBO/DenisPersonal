@@ -105,6 +105,8 @@ main .line {
 #sobre-mim p {
   font-size: 1.5rem;
   text-align: justify;
+  max-width: 30rem;
+  font-weight: 700;
 }
 #trabalhos {
   text-align: center;
@@ -116,6 +118,9 @@ main .line {
 #trabalhos p {
   font-size: 1.5rem;
   text-align: justify;
+  max-width: 30rem;
+  margin: auto;
+  font-weight: 700;
 }
 #contato {
   text-align: center;
