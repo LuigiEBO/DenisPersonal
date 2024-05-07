@@ -208,16 +208,16 @@ footer img {
     text-align: center;
   }
   #sobre-mim h1 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
   #sobre-mim p, #trabalhos p {
     max-width: 90rem;
-     margin: auto;
+    margin: auto;
     text-align: justify;
-    font-size: 2.6rem;
+    font-size: 2rem;
   }
   #sobre-mim img {
-  max-width: 60rem;
+  max-width: 50rem;
   margin-bottom: 2rem;
 }
 }
