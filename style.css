@@ -10,6 +10,7 @@ body {
   max-width: 45rem;
   margin: auto;
   font-family: "Poppins", sans-serif;
+  height: 100%;
 }
 header {
   background-color: #000;
