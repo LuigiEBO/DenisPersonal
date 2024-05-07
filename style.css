@@ -104,6 +104,7 @@ main .line {
 }
 #sobre-mim p {
   font-size: 1.5rem;
+  text-align: justify;
 }
 #trabalhos {
   text-align: center;
@@ -114,6 +115,7 @@ main .line {
 }
 #trabalhos p {
   font-size: 1.5rem;
+  text-align: justify;
 }
 #contato {
   text-align: center;
@@ -169,6 +171,9 @@ footer img {
 }
   #sobre-mim p, #trabalhos p{
     font-size: 2rem;
+    max-width: 50rem;
+    margin: auto;
+    text-align: justify;
   }
 }
 @media (min-width: 800px) {
@@ -185,5 +190,10 @@ footer img {
   .navigation li {
     width: 16rem;
     text-align: center;
+  }
+  #sobre-mim p, #trabalhos p {
+    max-width: 90rem;
+    margin: auto;
+    text-align: justify;
   }
 }
