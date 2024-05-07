@@ -165,7 +165,7 @@ footer h1 {
 }
 footer img {
   background-color: orange;
-  border-radius: 2rem;
+  border-radius: 1.8rem;
   width: 4rem;
 }
 @media (min-width:450px) {
