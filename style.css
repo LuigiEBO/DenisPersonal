@@ -12,12 +12,13 @@ body {
   font-family: "Poppins", sans-serif;
 }
 header {
-  background-color: #000;
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   position: fixed;
+  border-bottom: 2px solid #000;
 }
 .logo img.close {
   display: none;
@@ -76,6 +77,7 @@ header li {
   padding: 1.2rem;
   background-color: orange;
   border-radius: 0.8rem;
+  list-style: none;
 }
 header a {
   text-decoration: none;
@@ -84,7 +86,7 @@ header a {
   font-weight: bold;
 }
 main {
-  background-color: rgb(220, 146, 7);
+  background-color: #fff;
 }
 main .line {
   height: 0.1rem;
@@ -106,12 +108,14 @@ main .line {
 #sobre-mim h1 {
   font-size: 3rem;
   margin: auto;
+  color: rgba(220, 146, 7);
 }
 #sobre-mim p {
   font-size: 1.5rem;
   text-align: justify;
   max-width: 30rem;
   font-weight: 700;
+  color: rgba(220, 146, 7);
 }
 #trabalhos, #filosofia-de-trabalho, #consultorias {
   text-align: center;
@@ -119,6 +123,7 @@ main .line {
 #trabalhos h1, #filosofia-de-trabalho h1, #consultorias h1 {
   font-size: 2.5rem;
   margin-top: 3rem;
+  color: rgba(220, 146, 7);
 }
 #trabalhos p, #filosofia-de-trabalho p, #consultorias p {
   font-size: 1.5rem;
@@ -126,6 +131,7 @@ main .line {
   max-width: 30rem;
   margin: auto;
   font-weight: 700;
+  color: rgba(220, 146, 7);
 }
 #contato {
   text-align: center;
@@ -134,6 +140,7 @@ main .line {
   font-size: 2.5rem;
   margin-bottom: 3rem;
   margin-top: 3rem;
+  color: rgba(220, 146, 7);
 }
 #contato a {
   background-color: green;
@@ -153,7 +160,6 @@ main .line {
   margin-right: 1rem;
 }
 footer {
-  background-color: #000;
   color: orange;
   display: flex;
   align-items: center;
@@ -165,8 +171,6 @@ footer h1 {
   font-size: 3rem;
 }
 footer img {
-  background-color: orange;
-  border-radius: 1.8rem;
   width: 4rem;
 }
 @media (min-width:450px) {
