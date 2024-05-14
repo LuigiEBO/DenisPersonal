@@ -55,6 +55,7 @@ header {
   width: 100%;
 }
 .close img {
+  left: 0;
   width: 4rem;
   margin-left: calc(100% - 4rem);
   margin-bottom: 2rem;
