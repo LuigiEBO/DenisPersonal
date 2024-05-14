@@ -80,7 +80,7 @@ header li {
 header a {
   text-decoration: none;
   color: #000;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
 }
 main {
@@ -113,14 +113,14 @@ main .line {
   max-width: 30rem;
   font-weight: 700;
 }
-#trabalhos {
+#trabalhos, #filosofia-de-trabalho, #consultorias {
   text-align: center;
 }
-#trabalhos h1 {
+#trabalhos h1, #filosofia-de-trabalho h1, #consultorias h1 {
   font-size: 2.5rem;
   margin-top: 3rem;
 }
-#trabalhos p {
+#trabalhos p, #filosofia-de-trabalho p, #consultorias p {
   font-size: 1.5rem;
   text-align: justify;
   max-width: 30rem;
@@ -173,14 +173,14 @@ footer img {
   body {
     max-width: 80rem;
   }
-  #sobre-mim h1, #trabalhos h1, #contato h1 {
+  #sobre-mim h1, #trabalhos h1, #contato h1, #filosofia-de-trabalho h1, #consultorias h1 {
   font-size: 4rem;
   margin: auto;
 }
-  #trabalhos h1, #contato h1 {
+  #trabalhos h1, #contato h1, #filosofia-de-trabalho h1, #consultorias h1 {
   margin-top: 3rem;
 }
-  #sobre-mim p, #trabalhos p{
+  #sobre-mim p, #trabalhos p, #filosofia-de-trabalho p, #consultorias p {
     font-size: 2rem;
     max-width: 50rem;
     margin: auto;
@@ -195,6 +195,22 @@ footer img {
   body {
     max-width: 100%;
   }
+  
+  #sobre-mim h1 {
+    font-size: 4rem;
+  }
+  #sobre-mim p, #trabalhos p, #filosofia-de-trabalho p, #consultorias p {
+    max-width: 90rem;
+    margin: auto;
+    text-align: justify;
+    font-size: 2rem;
+  }
+  #sobre-mim img {
+  max-width: 50rem;
+  margin-bottom: 2rem;
+}
+}
+@media (min-width: 1200px) {
   .navigation button .line{
     display: none;
   }
@@ -208,30 +224,18 @@ footer img {
     width: 16rem;
     text-align: center;
   }
-  #sobre-mim h1 {
-    font-size: 4rem;
-  }
-  #sobre-mim p, #trabalhos p {
-    max-width: 90rem;
-    margin: auto;
-    text-align: justify;
-    font-size: 2rem;
-  }
-  #sobre-mim img {
-  max-width: 50rem;
-  margin-bottom: 2rem;
-}
 }
 @media (min-width: 2000px) {
   .logo img {
     width: 30rem;
   }
   .navigation li {
-   width: 45rem;
+   width: 30rem;
    padding: 3rem;
   }
   .navigation li a {
-    font-size: 4rem;
+    font-size: 2.5rem;
+    font-weight: 900;
   }
   #sobre-mim {
     padding-top: 18rem;
@@ -239,19 +243,19 @@ footer img {
   #sobre-mim img {
     max-width: 100rem;
   }
-  #sobre-mim h1, #trabalhos h1 , #contato h1 {
-    font-size: 9rem;
+  #sobre-mim h1, #trabalhos h1 , #contato h1, #filosofia-de-trabalho h1, #consultorias h1 {
+    font-size: 7rem;
   }
-  #sobre-mim p, #trabalhos p , #contato p {
+  #sobre-mim p, #trabalhos p , #contato p, #filosofia-de-trabalho p, #consultorias p {
     max-width: 150rem;
-    font-size: 6rem;
+    font-size: 4rem;
   } 
   #contato a {
-    font-size: 5rem;
+    font-size: 4rem;
     padding: 4rem;
     width: 50rem;
   }
   #contato a img {
-    width: 7rem;
+    width: 5rem;
   }
 }
