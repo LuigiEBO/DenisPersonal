@@ -258,4 +258,12 @@ footer img {
   #contato a img {
     width: 5rem;
   }
+  footer h1 {
+  font-size: 7rem;
+}
+footer img {
+  background-color: orange;
+  border-radius: 2rem;
+  width: 7rem;
+}
 }
